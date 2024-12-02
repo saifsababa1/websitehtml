@@ -1,0 +1,213 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  scroll-behavior: smooth0;
+}
+body {
+  font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol, Noto Color Emoji;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.container {
+padding-top: 150px;
+padding-left: 25.5%;
+display: flex;
+flex-direction: column;
+padding-right: 20px;
+}
+.container h1{
+    font-size: 5vw;
+}
+hr{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.sidebar {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 300px;
+  background-color: #b55c34;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #d8a389;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 0;
+  opacity: 0.98;
+}
+.sidebar a:hover {
+  color: #ffffff;
+}
+
+.sidebar li {
+  list-style: none;
+  margin: 20px 0;
+  text-align: center;
+}
+.sidebar ul {
+  margin-top: 30px;
+}
+
+.page {
+  margin-left: 300px;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: #c37b5c 10px solid;
+}
+.image img {
+  width: 100%;
+}
+
+.i {
+  font: optional;
+  font-size: 20px;
+}
+.content {
+  float: left;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+}
+.contact {
+  font-size: 18px;
+  color: #c95b26;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.description {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.8;
+  max-width: 600px;
+  margin-top: 15px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+.icons i {
+  font-size: 30px;
+  padding: 8px;
+  margin-right: 2px;
+  border-radius: 50%;
+  margin-top: 40px;
+  text-align: center;
+  cursor : pointer;
+}
+.icons i:hover {
+  color: #c95b26;
+}
+ 
+#experience h2{
+  font-size: 5vw;
+}
+#experience h3{
+  font-size: 2vw;
+  color: #937160;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#about{
+  margin-top: 20px;
+}
+#education h2{
+  
+  font-size: 5vw;
+  }
+  #education h3{
+    font-size: 2vw;
+    color: #937160;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  #skills h2{
+    font-size: 5vw;
+  }
+  #skills h1{
+    font-size: 2vw;
+  color: #937160;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  }
+#skills ul li{
+  list-style-type: disc; 
+  margin-left: 20px;
+  margin-bottom: 8px; 
+}
+#experience p{
+  font-size: 16px;
+  color: #666;
+  line-height: 1.8;
+  max-width: 600px;
+  margin-top: 15px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+#education p{
+  font-size: 16px;
+  color: #666;
+  line-height: 1.8;
+  max-width: 600px;
+  margin-top: 15px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+#interests p{
+  font-size: 16px;
+  color: #666;
+  line-height: 1.8;
+  max-width: 600px;
+  margin-top: 15px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+#awards ul li{
+  
+ list-style: none; 
+padding: 0; 
+  margin-bottom: 20px;
+}
+#awards ul li i{
+  color:rgb(255,215,0)
+}
